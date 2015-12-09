@@ -1,0 +1,142 @@
+html { 
+  background-color: #d6e8b8;
+}
+* { box-sizing: border-box; }
+body {
+  background-color: white;
+  height: 2600px;
+  margin: auto;
+  width: 86%;
+  padding: 10px;
+}
+
+.main {
+  width: 100%;
+  float: left;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin:auto;
+  line-height: 150%;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#94c840, #d6e8b8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#94c840, #d6e8b8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#94c840, #d6e8b8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#94c840, #d6e8b8); /* Standard syntax */
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  color: #523e33;/*brown*/
+  padding: 1em 0 .3em .5em;
+}
+
+.logo {
+  clear: both;
+  float: left;
+  width: 10%;
+  height: auto;
+  margin: .5% .5% .5% 10%;
+  padding: .5em;
+  float: left;
+}
+.navbar {
+  clear: both;
+  float: left;
+  width: 100%;
+
+  height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d6e8b8;/*light green*/
+}
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding-top: .1rem;
+  width: 90%;
+  overflow: hidden;
+}
+.navbar li {
+  border-left: 3px solid #6b4f9a;
+  font-family: 'Fjalla One', sans-serif; 
+  font-size: 1rem;
+  color: white;
+  float: left;
+  padding: 6px;
+  width: 12%;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+a:link {
+  color: #523e33;/*brown*/
+  text-decoration: none;
+}
+a:visited {
+  color: #94877e;/*beige*/
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.thumb {
+  width: 40%;
+  height: auto;
+}
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width: 40%;
+}
+.derek {
+  clear: both;
+  margin-top: 15%;
+  float: left;
+}
+.amy {
+  clear: both;
+  margin-top: 4em;
+  float: left;
+}
+.nathen {
+  clear: both;
+  margin-top: 4em;
+  float: left;
+}
+.doona {
+  clear: both;
+  margin-top: 4em;
+  float: left;
+}
+
+
+  
+}
+footer p {
+  clear: both;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .5em;
+  text-align: center;
+  font-weight: bold;
+}
+.facebook {
+  clear: both;
+  float: left;
+  margin-left: 70%;
+}
+.twitter {
+  clear: both;
+  float: left;
+}
+footer {
+  width: 85%;
+  height: 20%;
+
